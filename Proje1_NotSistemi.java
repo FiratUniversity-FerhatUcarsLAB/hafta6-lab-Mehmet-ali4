@@ -8,7 +8,7 @@ TRAİH: 14.11.2025
 import java.util.Scanner;
 
 import javax.print.DocFlavor.CHAR_ARRAY;
-public class ödev {
+public class nothesaplama {
     static Scanner input = new Scanner(System.in);
     static double vize;
     static double finalnot;
@@ -96,5 +96,7 @@ public class ödev {
     System.out.println("HAFR NOTUNUZ: "+harfnot);
     System.out.println("DURUMUNUZ: "+durum);    
     System.out.println("ONUR LİSTESİ: "+onur);
+        input.close();
     }
 }
+
